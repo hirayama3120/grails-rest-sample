@@ -1,0 +1,8 @@
+import grails.samples.Users
+
+model {
+	Iterable<Users> usersList
+}
+
+json tmpl.users(usersList ?: [])
+

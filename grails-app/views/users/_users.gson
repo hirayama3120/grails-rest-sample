@@ -1,0 +1,7 @@
+import grails.samples.Users
+
+model {
+	Users users
+}
+
+json g.render(users)
